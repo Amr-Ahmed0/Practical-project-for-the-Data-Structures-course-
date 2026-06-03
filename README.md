@@ -1,34 +1,162 @@
-## - Project Title  
-**Data Structure Management Program (Array – Linked List – Stack – Queue) Using C++**
+# Data Structure Management System
+
+A comprehensive C++ console application developed to demonstrate the implementation of fundamental data structures from scratch without relying on the Standard Template Library (STL).
+
+The project focuses on low-level memory management, object-oriented design, and efficient data organization while providing an interactive user interface for manipulating different data structures.
 
 ---
 
-## - Project Introduction  
-This project is an interactive console application that allows users to work with the most common basic data structures and perform essential operations on them, such as insertion, deletion, and display.
+## Project Overview
 
-The project aims to understand how to manually construct these structures using pointers and functions, and how to design an interactive program that integrates multiple data structures into a single interface.
+This project was developed as part of the Data Structures course to gain a deeper understanding of how core data structures work internally.
 
----
-
-## - Project Objectives  
-- Practical application of data structures: **Array, Linked List, Stack, Queue**.  
-- Implementation of basic operations for each data structure.  
-- Practice using classes and organizing code across separate header and source files.  
-- Understanding how to build a **main menu** with structured **submenus** for user interaction.
+Instead of using ready-made containers, all structures were manually implemented using pointers and dynamic memory allocation to strengthen problem-solving and software engineering skills.
 
 ---
 
-## - Learning Outcomes
+## Implemented Data Structures
 
- - Understanding of fundamental data structures and their operations.<br>
- - Practice with manual memory management (new and delete in Linked Lists).<br>
- - Strengthened knowledge of C++ programming, including arrays, pointers, and class design.<br>
+### Dynamic Array
+
+- Insert elements
+- Delete elements
+- Update values
+- Search operations
+- Display stored data
+
+### Singly Linked List
+
+- Insert at beginning
+- Insert at end
+- Delete nodes
+- Search nodes
+- Traverse list
+
+### Stack (LIFO)
+
+- Push operation
+- Pop operation
+- Peek operation
+- Check stack status
+
+### Queue (FIFO)
+
+- Enqueue operation
+- Dequeue operation
+- Front element access
+- Queue traversal
 
 ---
 
-## - Author
-<p>
-  <strong>Amr Ahmed Sayed </strong> <br>
-  Student at the Faculty of Computers and Information, Sinai University. 
-  This project is part of my academic projects and personal learning archive.
-</p>
+## Technical Skills Demonstrated
+
+### Object-Oriented Programming (OOP)
+
+- Classes and Objects
+- Encapsulation
+- Modular Design
+- Separation of Interface and Implementation
+
+### Memory Management
+
+- Dynamic Allocation using `new`
+- Memory Deallocation using `delete`
+- Pointer Manipulation
+- Avoiding Memory Leaks
+
+### Software Design
+
+- Modular Architecture
+- Header and Source File Organization
+- Menu-Driven User Interface
+- Clean Code Principles
+
+---
+
+## Project Architecture
+
+```text
+Project
+│
+├── main.cpp
+│
+├── Array
+│   ├── Array.h
+│   └── Array.cpp
+│
+├── LinkedList
+│   ├── LinkedList.h
+│   └── LinkedList.cpp
+│
+├── Stack
+│   ├── Stack.h
+│   └── Stack.cpp
+│
+└── Queue
+    ├── Queue.h
+    └── Queue.cpp
+```
+
+---
+
+## Key Learning Outcomes
+
+Through this project, I developed practical experience in:
+
+- Designing custom data structures from scratch.
+- Understanding internal data representation.
+- Working with dynamic memory safely.
+- Applying object-oriented programming principles.
+- Building maintainable and scalable C++ applications.
+- Analyzing the behavior and efficiency of different data structures.
+
+---
+
+## Technologies
+
+- C++
+- Object-Oriented Programming (OOP)
+- Dynamic Memory Allocation
+- Pointers
+- Data Structures
+- Console Applications
+
+---
+
+## Build & Run
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/Amr-Ahmed0/Practical-project-for-the-Data-Structures-course-.git
+```
+
+### Navigate to the Project Directory
+
+```bash
+cd Practical-project-for-the-Data-Structures-course-
+```
+
+### Compile
+
+```bash
+g++ *.cpp -o DataStructureManagementSystem
+```
+
+### Run
+
+```bash
+./DataStructureManagementSystem
+```
+
+---
+
+## Future Improvements
+
+- Doubly Linked List
+- Circular Linked List
+- Binary Search Tree (BST)
+- AVL Tree
+- Hash Table
+- Priority Queue
+- Performance Benchmarking
